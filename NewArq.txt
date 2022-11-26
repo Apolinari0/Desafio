@@ -1,4 +1,4 @@
-
 Números
-33 2 322 3 4 55 6 7 8 0 9 8 7 6 5 4 3 2 1 Numeros repetidos:
-33 5 5 
+14 54 87 3 4 17 15 13 12 11 9 8 7 6 5 4 3 2 1 
+Numeros repetidos:
+14 9 

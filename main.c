@@ -8,7 +8,7 @@ int main(void) {
   estrutura list;
   estrutura2 lista;
   char str[80];
-  int x;
+  int x, n;
 
 
 
@@ -19,10 +19,10 @@ int main(void) {
   arq=fopen("arquivo.txt","r");
   if(arq==NULL){ printf("erro com a leitura do arquivo, verifique se digitou o nome do arquivo corretamente...\n");
   exit(1);}
-  printf("scaneando numeros:\n");;
+  printf("scaneando numeros:\n");
   while(!feof(arq)){
-    fscanf(arq,"%d",&x);
-    printf("%i\n",x);
+    fscanf(arq,"%i",&n);
+    x=n;
     if(checkList(&list,x)==0)
         insere(&list,x);
     else

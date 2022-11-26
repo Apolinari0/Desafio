@@ -19,7 +19,7 @@ typedef struct {
 }estrutura;
 
 typedef struct {
-  struct  dadosREP *inicio2;
+ dadosREP *inicio2;
 }estrutura2;
 
 

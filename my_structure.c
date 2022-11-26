@@ -55,7 +55,7 @@ void imprime(estrutura **list){
     aux=*list;
     printf("numeros\n");
     FILE *arq=fopen("NewArq.txt","w+");
-    fprintf(arq,"\nNúmeros\n");
+    fprintf(arq,"Números\n");
     while(aux){
         fprintf(arq,"%i ",aux->num);
         printf("%d ",aux->num);
@@ -67,8 +67,8 @@ void imprime2(estrutura2 *lista){
     dadosREP *aux=malloc(sizeof(dadosREP));
     aux=lista->inicio2;
     FILE *arq=fopen("NewArq.txt","a+");
-    fprintf(arq,"Numeros repetidos:\n");
-    printf("\n numeros repetidos:\n");
+    fprintf(arq,"\nNumeros repetidos:\n");
+    printf("\nnumeros repetidos:\n");
     while(aux){
         fprintf(arq,"%i ",aux->repetidos);
         printf("%d ",aux->repetidos);
