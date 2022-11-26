@@ -1,7 +1,5 @@
 # depslib dependency file v1.0
-1669423027 source:c:\users\loja1367\desktop\desafio\main.c
-	<stdio.h>
-	<stdlib.h>
+1669425479 source:c:\users\loja1367\desktop\desafio\main.c
 	"my_structure.h"
 
 1669423268 source:c:\users\loja1367\desktop\desafio\my_structure.c

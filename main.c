@@ -19,6 +19,7 @@ int main(void) {
   arq=fopen("arquivo.txt","r");
   if(arq==NULL){ printf("erro com a leitura do arquivo, verifique se digitou o nome do arquivo corretamente...\n");
   exit(1);}
+  printf("scaneando numeros:\n");;
   while(!feof(arq)){
     fscanf(arq,"%d",&x);
     printf("%i\n",x);
